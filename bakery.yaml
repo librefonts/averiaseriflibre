@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [AveriaSerifLibre-BoldItalic.ttf.ttx, AveriaSerifLibre-Regular.ttf.ttx,
+  AveriaSerifLibre-Bold.ttf.ttx, AveriaSerifLibre-Light.ttf.ttx, AveriaSerifLibre-Italic.ttf.ttx,
+  AveriaSerifLibre-LightItalic.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
